@@ -78,3 +78,11 @@ st.header('Ejemplo de caso de geoestadística')
 st.write('Para este enfoque de estadística espacial, se busca estudiar el comportamiento de una variable indexada en el espacio en base a conocer ciertas localizaciones especificas.')
 
 
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+
+st.header('st.button')
+
+if st.button('Say hello'):
+     st.write('Why hello there')
+else:
+     st.write('Goodbye')
