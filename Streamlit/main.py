@@ -1,30 +1,3 @@
-# import streamlit as st
-# import yfinance as yf
-# import matplotlib.pyplot as plt
-
-# # Set the title of the Streamlit app
-# st.title('USD/CLP Exchange Rate')
-
-# # Download historical data for USD/CLP
-# data = yf.download('USDCLP=X', start='2020-01-01', end='2023-01-01')
-
-# # Plot the data
-# fig, ax = plt.subplots()
-# ax.plot(data.index, data['Close'], label='USD/CLP')
-
-# # Format the plot
-# ax.set_xlabel('Date')
-# plt.xticks(rotation=45)
-# ax.grid()
-# ax.set_ylabel('Exchange Rate (CLP)')
-# ax.set_title('Historical USD/CLP Exchange Rate')
-# ax.legend()
-
-# # Display the plot in the Streamlit app
-# st.pyplot(fig)
-
-# st.title('Kill me')
-
 import streamlit as st
 import yfinance as yf
 import matplotlib.pyplot as plt
@@ -32,11 +5,10 @@ import pandas as pd
 import os
 
 os.chdir(r'C:\Users\diego\OneDrive - Universidad Técnica Federico Santa María\(01)-University\(10)_X_Semestre\(01)-Ayud. Aplicaciones\ayudantias_MAT281\Streamlit')
-# st.write(f"Ahora estás en el directorio: {os.getcwd()}")
 
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
 
-st.title('Ayudantía 1: Me aburro y uso Streamlit')
+st.title('Ayudantía 1: Probando Streamlit')
 st.write('La ayudantía "oficial" es la realizada en el Jupyter Notebook, la cual fue una introducción al ecosistema de Python. Esté último documento es amor al arte.')
 
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
@@ -79,10 +51,3 @@ st.write('Para este enfoque de estadística espacial, se busca estudiar el compo
 
 
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
-
-st.header('st.button')
-
-if st.button('Say hello'):
-     st.write('Why hello there')
-else:
-     st.write('Goodbye')
